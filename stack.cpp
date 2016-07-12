@@ -38,6 +38,10 @@ using namespace std;
 
 	// pop
 	int Stack::pop() {
+		if(nvals==0) {
+			cerr << "Can't pop, stack is empty." << endl;
+			return 0;
+		}
 		return data[--nvals]; // don't actually need to resize array
 	}
 

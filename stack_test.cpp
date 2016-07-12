@@ -13,9 +13,35 @@ int main(){
 	cout << "Stack created" << endl;
 	cout << "Empty? " << test_stack.isEmpty() << endl;
 	cout << "Length = " << test_stack.length() << endl;
+	cout << "Contents: "; test_stack.print();
 
-	test_stack.push(5);
+	test_stack.push(34);
 	cout << "Pushed to stack" << endl;
 	cout << "Empty? " << test_stack.isEmpty() << endl;
 	cout << "Length = " << test_stack.length() << endl;
+	cout << "Contents: "; test_stack.print();
+
+	test_stack.push(76);
+	cout << "Pushed to stack" << endl;
+	cout << "Empty? " << test_stack.isEmpty() << endl;
+	cout << "Length = " << test_stack.length() << endl;
+	cout << "Contents: "; test_stack.print();
+
+	test_stack.pop();
+	cout << "Popped from stack" << endl;
+	cout << "Empty? " << test_stack.isEmpty() << endl;
+	cout << "Length = " << test_stack.length() << endl;
+	cout << "Contents: "; test_stack.print();
+	
+	test_stack.pop();
+	cout << "Popped from stack" << endl;
+	cout << "Empty? " << test_stack.isEmpty() << endl;
+	cout << "Length = " << test_stack.length() << endl;
+	cout << "Contents: "; test_stack.print();
+	
+	test_stack.pop();
+	cout << "Popped from stack" << endl;
+	cout << "Empty? " << test_stack.isEmpty() << endl;
+	cout << "Length = " << test_stack.length() << endl;
+	cout << "Contents: "; test_stack.print();
 }
